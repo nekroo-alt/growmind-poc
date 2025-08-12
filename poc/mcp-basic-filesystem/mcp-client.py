@@ -10,7 +10,7 @@ from google import genai
 
 GEMINI_API_KEY = "YOUR_API_KEY"
 ALLOW_DIRECTORY = (
-    "/Users/ken/Desktop/mcptest"  #NOTE: Need to create it MANUALLY in advance.
+    "YOUR_PATH_FOR_LLM_TO_USE"  # NOTE: Need to create it MANUALLY in advance.
 )
 
 client = genai.Client(api_key=GEMINI_API_KEY)
